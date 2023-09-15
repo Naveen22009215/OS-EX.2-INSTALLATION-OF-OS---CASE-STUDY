@@ -1,128 +1,114 @@
 # OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY
 
-## AIM:
-To install operating system.
+ # AIM:
+    To install operating system.
 
-## MATERIALS REQUIRED :
-1.Operating System Installation Media
+# MATERIALS REQUIRED :
+     1.Operating System Installation Media
+     2.Computer with Appropriate Hardware
+     3.Power Source
+     4.Internet Connection
+     5.Product Key or License
+     6.User Account Information
 
-2.Computer with Appropriate Hardware
+# PROCEDURE:
 
-3.Power Source
+### Step 1: 
+<br>
+To download, go to https://www.virtualbox.org/wiki/Downloads. Depending on
+your operating system, select the right package. In this case, it will be the first one for
+Windows as shown in the e following screenshot
 
-4.Internet Connection
-
-5.Product Key or License
-
-6.User Account Information
-
-
-PROCEDURE:
-
-1.Prepare Installation Media:
-
-. Insert the installation DVD or connect the bootable USB
-drive containing the operating system into your computer.
-
-![s2](https://github.com/Thenmozhi-Palanisamy/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/95198708/74d3c49c-ec32-4b2c-bf43-3557f14d7756)
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/ca95c0a1-45b9-4af1-912f-ad03617d12dc)
 
 
-2.Boot from Installation Media:
+### Step 2:
+<br>
+Click Next.
 
-. Restart your computer.
-As it boots up, access the boot menu or BIOS/UEFI settings.
-Typically, you can do this by pressing a specific key during
-startup (e.g., F2, F12, Del, or Esc).
-Select the bootable media (DVD or USB drive) as the primary
-
-![s3](https://github.com/Thenmozhi-Palanisamy/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/95198708/1e767dd6-3810-4c73-9267-d42bb163202c)
-
-3.Select Language and Region:
-
-. The installation process usually starts with selecting
-your preferred language, time zone, and keyboard
-layout. 
-
-![s7](https://github.com/Thenmozhi-Palanisamy/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/95198708/91131630-20c4-47df-8d4c-4e2b38c49fc2)
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/f5582fdd-a27e-42d0-9ba7-c69cde193fe5)
 
 
-4.Begin Installation:
+### Step 3:
+<br>
+The next page will give you options to choose the location where you want to
+install the application. In this case, let us leave it as default and click Next.
 
-. Click "Install Now" or its equivalent to initiate the installation.
-
-5.Enter Product Key (if required):
-
-. If prompted, enter the product key or license key for the operating system. This step may not beapplicable for some Linux distributions.
-
-6.Accept License Terms:
-
-. Read and accept the terms and conditions of the operating system's license agreement.
-
-7.Choose Installation Type:
-
-. Select the installation type. Common options include:
-"Custom" or "Advanced" for more control over partitions (for Windows).
-"Install alongside existing OS" or "Erase disk and install" (for Linux).
-
-8.Create or Select a Partition:
-
-. If you're installing the OS on a new drive or
-wish to create custom partitions, use the
-installation wizard to configure the storage layout.
-For Windows, you can create, format, and select
-partitions during this step.
-For Linux, you can choose to install the
-bootloader (e.g., GRUB) and configure partitions.
-You may need to create a root (/) and, optionally,
-a swap partition. 
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/d9cc05e1-e78d-49eb-813d-d1a567d2e513)
 
 
-![s4](https://github.com/Thenmozhi-Palanisamy/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/95198708/d519070b-23bc-417f-a0f6-a707d3df8d7b)
+### Step 4:
+<br>
+Click Next and the following Custom Setup screenshot pops up. Select the
+features you want to be installed and click Next.
+
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/27dfdd85-1312-4817-8335-acfaaf8ce04a)
+
+### Step 5: 
+<br>
+Click Yes to proceed
+
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/5a274c2c-13d6-431f-b5c2-1fb99324c710)
+
+### Step 6:
+<br>
+The Ready to Install screen pops up. Click Install
+
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/beaac714-79d7-43ee-9ae9-1f6f50160bfb)
+
+### Step 7: 
+<br> 
+Click the Finish button.
+
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/1f2f49d1-56c9-44f6-a347-fc91e99bc15a)
+
+The Virtual Box application will now open as shown in the following screenshot. Now we
+are ready to install the rest of the hosts for this manual and this is also recommended for
+professional usage.
+
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/29b2b2e9-8905-4bf7-b4be-abcbc75793d1)
 
 
-9.Begin Installation:
+## Install Kali Linux
+<br>
+Now that we have successfully installed the Virtual Box, let’s move on to the next step and
+install Kali Linux. 
 
-. Confirm your partition selections and begin the installation process. This may take some time, dependingon your hardware
+### Step 1:
+<br>
+Download the Kali Linux package from its official website:
+https://www.kali.org/downloads/
 
-10.Set Up User and Computer Details:
-
-. Provide your full name, username, and password for the administrator (or root) account.
-Set your computer's name.
-
-11.Configure Additional Settings:
-
-. Follow on-screen prompts to customize additional settings, such as time and date, network settings, andprivacy preferences.
-
-12.Install Additional Software (if applicable):
-
-. Some operating systems, like Linux distributions, allow
-you to select additional software packages during
-installation. Choose the packages you need.
-![s5](https://github.com/Thenmozhi-Palanisamy/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/95198708/f972dbb4-c538-4d54-a641-78f70795d6d4)
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/f854ecb1-7f28-410e-8dbd-638415f04184)
 
 
-13.Complete Installation:
+### Step 2:
+<br>
+Click VirtualBox -> New as shown in the following screenshot
 
-. Wait for the installation process to finish.
-Your computer may restart during this time.
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/b44fcc23-c2d4-4773-ba8d-a51a69702fb5)
 
-14.Login and Update (if needed):
+### Step 3:
+<br>
+Choose the right virtual hard disk file and click Open.
 
-. After installation is complete and your computer restarts, log in using the credentials you provided.
-Check for updates and install them if necessary to ensure your system is up to date.
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/d8b9a4e5-9488-4b2d-bd0f-e7b6ba46dc22)
 
 
-![s6](https://github.com/Thenmozhi-Palanisamy/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/95198708/f8edda63-e7f9-490a-95d5-d6eb3cfac76b)
+### Step 4: 
+<br>
+The following screenshot pops up. Click the Create button.
 
-15.Install Drivers (if needed):
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/df4190ef-5729-4566-8769-4afb9e5f0867)
 
-. Install any hardware drivers that are not automatically
-detected during the installation process.
 
-16.Enjoy Your New OS:
+### Step 5:
+<br>
+Start Kali OS. The default username is root and the password is root.
 
-. Your operating system is now installed and ready for use.
+![image](https://github.com/gururamu08/OS-EX.2-INSTALLATION-OF-OS---CASE-STUDY/assets/118707009/b1bc7f4b-66d4-442f-a38d-cacaa93ef3c5)
 
-## RESULT :
 
+# RESULT:
+<br>
 Thus the Operating system has been installed successfully
